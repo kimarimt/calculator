@@ -1,3 +1,4 @@
+import art
 import os
 import time
 
@@ -16,6 +17,7 @@ def clear():
 
 
 def main():
+    print(art.logo)
     again = ''
     result = 0
     previous_result = 0
