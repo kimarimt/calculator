@@ -20,7 +20,6 @@ def main():
     print(art.logo)
     again = ''
     result = 0
-    previous_result = 0
 
     while True:
         if again == 'n' or again == '':
